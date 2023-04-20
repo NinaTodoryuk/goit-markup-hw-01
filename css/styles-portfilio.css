@@ -1,0 +1,82 @@
+/*половина 1й стр, навигация, заголовки NAVY BLUE #2E2F42*/
+
+/*цвет фона 2й, цвет тени портретов CLOUD #F4F4FD*/
+
+/*фон картинок, рамки CORNFLOWER #E7E9FC*/
+
+/*цвет текста SLATE #434455*/
+
+/*цвет кнопки и части логотипа IRIS #4D5AE5*/
+
+/*box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px
+ rgba(46, 47, 66, 0.08);*/
+
+/*кнопка Фильтры /* OCEAN #404BBF*/
+
+:root {
+  --primary-text-color: #2e2f42;
+  --primary-site-color: white;
+  --button-active-color: #4d5ae5;
+  --button-active-text: white;
+  --button-secondary-color: #f4f4fd;
+}
+
+body {
+  background-color: white;
+  color: var(--primary-text-color);
+  font-family: 'Roboto','Raleway', sans-serif;
+ }
+
+.logo {
+  color: var(--primary-text-color);
+  font-size: 18px;
+}
+
+.logo:hover {
+  color: red;
+}
+
+.list {
+  list-style: none;
+}
+
+/*site nav*/
+.site-nav .link {
+  color: var(--primary-text-color);
+  font-size: 16px;
+}
+
+.site-nav .link:hover
+    /*.site-nav .link:focus*/ {
+  color: red;
+}
+
+.site-nav .link.current {
+color:var(--button-active-color)
+}
+
+.auth-nav .link:hover
+/*.auth-nav .link:focus*/
+{
+  color: red;
+    font-size: 16px;
+}
+
+/*hero site*/
+/*filter color*/
+
+.button {
+  color: var(--button-main-color);
+  background-color: var(--button-active-color);
+
+}
+
+.button.primary {
+  background-color: var(--button-active-color);
+  color: var(--button-active-text);
+}
+
+.button.secondary {
+  background-color: var(--button-secondary-color);
+  color: var(--button-active-color);
+}

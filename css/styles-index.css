@@ -1,0 +1,80 @@
+/*половина 1й стр, навигация, заголовки #2E2F42*/
+
+:root {
+  --primary-text-color: #2e2f42;
+  --primary-site-color: white;
+  --button-active-color: #4d5ae5;
+  --button-active-text: white;
+  --button-secondary-color: #e7e9fc;
+}
+
+body {
+  background-color: white;
+  color: var(--primary-text-color);
+  font-family: 'Roboto','Raleway', sans-serif;
+  }
+
+.logo {
+  color: var(--primary-text-color);
+  font-size: 18px;
+}
+
+.logo:hover {
+  color: red;
+}
+
+.list {
+  list-style: none;
+}
+
+/*site nav*/
+.site-nav .link {
+  color: var(--primary-text-color);
+  font-size: 16px;
+}
+
+.site-nav .link:hover
+/*.site-nav .link:focus*/{
+  color: red;
+  }
+
+.auth-nav {
+    font-size: 16px;
+}
+
+/*Hero title*/
+.hero-title {
+  color: var(--primary-text-color);
+}
+
+/*Section*/
+.section-title {
+  color: var(--primary-text-color);
+}
+
+/*features*/
+.feature-list .title {
+  color: var(--primary-text-color) 2;
+}
+
+/*example*/
+.work-list .title {
+  color: var(--primary-text-color);
+}
+
+.button {
+  color: var(--button-main-color);
+  background-color: var(--button-active-color);
+
+  font-size: 16px;
+
+  height: 48px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  padding: 12px, 24px, 12px, 24px;
+}
+
+.button.primary {
+  background-color: var(--button-active-color);
+  color: var(--button-active-text);
+}
