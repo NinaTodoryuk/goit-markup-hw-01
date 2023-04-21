@@ -15,14 +15,14 @@
 
 :root {
   --primary-text-color: #2e2f42;
-  --primary-site-color: white;
+  --primary-site-color: #434455;
   --button-active-color: #4d5ae5;
   --button-active-text: white;
   --button-secondary-color: #f4f4fd;
 }
 
 body {
-  background-color: white;
+  background-color: #434455;
   color: var(--primary-text-color);
   font-family: 'Roboto','Raleway', sans-serif;
  }
