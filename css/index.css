@@ -15,18 +15,18 @@ body {
 
 .logo {
   color: #4d5ae5;
-
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
 }
 
-.logo:hover {
-  color: red;
+.logo:hover,
+.logo:focus {
+  color: #404bbf;
 }
 
 .list {
