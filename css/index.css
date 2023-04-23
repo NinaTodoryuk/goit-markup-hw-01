@@ -14,7 +14,6 @@ body {
 }
 
 .logo {
-  color: #4d5ae5;
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
@@ -22,6 +21,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  color: #4d5ae5;
 }
 
 .logo:hover,
@@ -31,6 +31,10 @@ body {
 
 .list {
   list-style: none;
+}
+
+li span {
+  color: #2e2f42;
 }
 
 /*site nav*/
@@ -72,33 +76,7 @@ body {
   color: #ffffff;
 }
 
-/*Section*/
-.section-title {
-  font-size: 36px;
-  line-height: 1.1;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-
-/*positive quality*/
-.positive-quality .title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-/*content*/
-.content {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
+/*button Order service*/
 .button {
   color: white;
   background-color: #4d5ae5;
@@ -116,14 +94,50 @@ body {
   color: #404bbf;
 }
 
-/*.button.primary {
-  background-color: var(--button-active-color);
-  color: var(--button-active-text);
-}*/
+/*Section*/
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+/*positive quality*/
+.positive-quality .title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.pstv-content {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 
 /*team*/
-.section-team {
+.title-team {
   background-color: #f4f4fd;
+}
+
+.img-team {
+  background-color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.job-title {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .footer-title {
