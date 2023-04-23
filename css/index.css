@@ -14,7 +14,7 @@ body {
 }
 
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -33,7 +33,11 @@ body {
   list-style: none;
 }
 
-li span {
+.link {
+  text-decoration: none;
+}
+
+.logo-studio {
   color: #2e2f42;
 }
 
@@ -87,6 +91,8 @@ li span {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.04em;
+
+  cursor: pointer;
 }
 
 .button .link:hover,
@@ -138,6 +144,8 @@ li span {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
+
 }
 
 .footer-title {
@@ -147,4 +155,36 @@ li span {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+/*page Portfolio*/
+
+.filter-title {
+}
+
+.filter-btn {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+}
+
+.filter-btn .link:hover,
+.filter-btn .link:focus {
+  color: #404bbf;
+  /*cursor: pointer*/
+}
+
+.filter-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }

@@ -61,7 +61,8 @@ li span{
   text-decoration: none;
 }
 
-.site-nav .link:hover .site-nav .link:focus {
+.site-nav .link:hover,
+.site-nav .link:focus {
   color: #404bbf;
 }
 
