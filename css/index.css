@@ -2,7 +2,7 @@
   --primary-text-color: #434455;
   --primary-site-color: white;
   --button-active-color: #4d5ae5;
-  --button-active-text:  #2e2f42;
+  --button-active-text: #F4F4FD;
   --button-secondary-color: #e7e9fc;
 }
 
@@ -42,7 +42,7 @@ body {
 }
 
 /*site nav*/
-.site-nav .link {
+.site-nav .link{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -65,13 +65,13 @@ body {
   color: #434455;
 }
 
-.auth-nav .link:focus,
-.auth-nav .link:hover {
+.auth-nav link:hover,
+.auth-nav link:focus {
   color: #404bbf;
 }
 
 /*Hero title*/
-.main-areal {
+.main-areal{
   background-color: #2e2f42;
 }
 .hero-title {
@@ -148,6 +148,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+
 }
 
 /*footer*/
@@ -160,8 +161,8 @@ body {
   color: #f4f4fd;
 }
 
-.logo-down {
-  color: #f4f4fd;
+.logo-down{
+color: #F4F4FD;
 }
 
 /*page Portfolio*/
@@ -180,16 +181,16 @@ body {
   text-align: center;
   color: #4d5ae5;
   background-color: #f4f4fd;
-  cursor: pointer;
+  cursor: pointer 
 }
 
 .filter-btn:hover,
 .filter-btn:focus {
   background-color: #404bbf;
-  color: #ffffff;
-}
+  color:#ffffff
+  }
 
-.button:hover,
+  .button:hover,
 .button:focus {
   color: white;
   background-color: #404bbf;
@@ -203,12 +204,13 @@ body {
   color: #2e2f42;
 }
 
-.paragraph-style {
+.paragraph-style{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.link-item {
+.link-item{
+
 }
