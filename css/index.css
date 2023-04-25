@@ -11,12 +11,12 @@
 body {
   background-color: white;
   color: var(--primary-text-color);
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   /*'Raleway',*/
 }
 
 .logo {
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -132,8 +132,15 @@ body {
 }
 
 /*team*/
-.title-team {
+.team-color{
   background-color: #f4f4fd;
+}
+
+.title-team {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .img-team {
