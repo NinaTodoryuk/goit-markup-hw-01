@@ -12,8 +12,7 @@ body {
   background-color: white;
   color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
-  /*'Raleway',*/
-}
+ }
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -50,7 +49,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -115,6 +113,10 @@ body {
   color: #2e2f42;
 }
 
+.section{
+
+}
+
 /*positive quality*/
 .positive-quality .title {
   font-weight: 500;
@@ -137,13 +139,15 @@ body {
 }
 
 .title-team {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+  font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
 }
 
-.img-team {
+.name-team {
   background-color: #ffffff;
   font-weight: 500;
   font-size: 20px;
