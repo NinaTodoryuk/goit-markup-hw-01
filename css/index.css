@@ -4,6 +4,8 @@
   --button-active-color: #4d5ae5;
   --button-active-text: #F4F4FD;
   --button-secondary-color: #e7e9fc;
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
 }
 
 body {
