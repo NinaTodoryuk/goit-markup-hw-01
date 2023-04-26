@@ -55,7 +55,7 @@ body {
 }
 
 .menu-color {
-  color: #404bbf;
+  color: #2e2f42;
 }
 
 .menu-color:hover,
@@ -63,7 +63,7 @@ body {
 .auth-nav:hover,
 .auth-nav:focus {
   color: #404bbf;
-}
+  }
 
 .auth-nav {
   font-weight: 400;
