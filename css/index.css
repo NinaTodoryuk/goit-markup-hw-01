@@ -51,15 +51,15 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #404bbf
+  
 }
 
-/*.menu-color {
+.menu-color {
   color: #404bbf;
-}*/
+}
 
-.site-nav:hover,
-.site-nav:focus,
+.menu-color:hover,
+.menu-color:focus,
 .auth-nav:hover,
 .auth-nav:focus {
   color: #404bbf;
