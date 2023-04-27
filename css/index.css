@@ -80,6 +80,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  font-style: normal;
 }
 
 .address {
@@ -107,7 +108,7 @@ body {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  cursor: pointer
+  cursor: pointer;
 }
 
 .button:hover,
@@ -192,6 +193,7 @@ body {
   text-align: center;
   color: var(--button-active-color);
   background-color: var(--filter-portfolio);
+  cursor: pointer ;
 }
 
 .filter-btn:hover,
@@ -202,8 +204,8 @@ body {
 
 .button:hover,
 .button:focus {
-  color: var(--button-active-text);
-  background-color: var(--color-hover);
+  color: var(--color-hover);
+  background-color: var(--button-active-text);
 }
 
 .filter-name {
