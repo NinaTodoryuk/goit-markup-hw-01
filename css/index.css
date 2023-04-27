@@ -36,6 +36,7 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: var(--logo-part-first);
+  font-style: normal
 }
 
 .logo-studio {
@@ -114,7 +115,7 @@ body {
 .button:hover,
 .button:focus {
   color: var(--secondary-text-color);
-  background-color: var(--button-active-color);
+  background-color: var(--color-hover);
 }
 
 /*Section*/
@@ -199,7 +200,7 @@ body {
 .filter-btn:hover,
 .filter-btn:focus {
   color: var(--secondary-text-color);
-  background-color: var(--button-active-color);
+  background-color: var(--color-hover);
 }
 
 .button:hover,
