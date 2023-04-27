@@ -205,8 +205,8 @@ body {
 
 .button:hover,
 .button:focus {
-  color: var(--color-hover);
-  background-color: var(--button-active-text);
+  color:  var(--button-active-text);
+  background-color: var(--color-hover);
 }
 
 
